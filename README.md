@@ -1,6 +1,6 @@
 # Basic-Version-Control-Task
 # Explain version control:
-Version control is a software development practice that sofware developers implement in their projects in order to track changes to files, documents, and code over time. It allows multiple developers to work on the same project simutaneously giving them the ability to track changes, colloborate, and also to revert changes. And in oreder to perform version control a developer needs to make use of a Version Control System (VCS) such as github. 
+Version control is a software development practice that sofware developers implement in their projects in order to track changes to files, documents, and code over time. It allows multiple developers to work on the same project simutaneously giving them the ability to track changes, colloborate, and also to revert changes. And in order to perform version control a developer needs to make use of a Version Control System (VCS) such as github. 
 
 # Explain the difference between git and github:
 Git is a version control system that runs locally on your computer to track changes in files.
@@ -12,14 +12,16 @@ SourceForge
 Bitbucket
 
 # Expalin the the difference between git fetch and git pull:
-git fetch: downlaods changes from the remote repository for to a local machine but does merge them automatically.
+git fetch: downlaods changes from the remote repository for to a local machine but does not merge them automatically.
 git pull: combines git fetch and a merge operation. It downloads changes and automtically integrates them into the current branch.
 
 # Explain in simple terms git rebase and the command for it:
-Git rebase is a way to move cchnages from one branch onto another, creating a clean and linear commit history. Command: git rebase branch-name
+Git rebase is a way to move changes from one branch onto another, creating a clean and linear commit history. 
+Command: git rebase branch-name
 
 # Explain in simple terms git cherry-pick and the command for it:
-Cherry picking as the name implies, allows you to select commits from one branch and hen apply it to another. Command: git cherry-pick commit-hash
+Cherry picking as the name implies, allows you to select commits from one branch and hen apply it to another. 
+Command: git cherry-pick commit-hash
 
 
 
